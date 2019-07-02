@@ -67,3 +67,37 @@ nav {
     font-size: 25px;
 }
 
+.adding {
+    width: 100%;
+}
+
+.hover {
+    height: 320px;
+    width: 200px;
+    margin: 0 auto;
+    background: url('..//img/book.jpg');
+    background-size: cover; 
+    position: relative;
+}
+
+.hover:hover {
+    opacity: 0.5;
+    background: black;
+}
+
+.btn-primary {
+    background-color: #343940;
+    border-color: #343940;
+}
+
+.btn-primary:hover {
+    color: #343940;
+    background-color: white;
+    border-color: white;
+}
+
+.form-control:focus {
+    color: #495057;
+    border-color: #495057;
+    box-shadow: 0 0 0 0.2rem #343a40;
+}
