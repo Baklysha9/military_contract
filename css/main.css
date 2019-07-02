@@ -12,14 +12,16 @@ body {
     background: url("../img/camouflage.jpg");
 }
 
-.container {
-    padding-right: 0px;
-}
 .header {
     width: 100%;
     background:#f8f9fab5;
     text-align: center;
 }
+
+.row {
+    margin-left: 0px !important;
+}
+
 nav {
     font-family: 'Army', arial;
     font-size: 18px;
@@ -101,3 +103,26 @@ nav {
     border-color: #495057;
     box-shadow: 0 0 0 0.2rem #343a40;
 }
+
+.navbar-toggler {
+    margin-left: 10px;
+}
+
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 20px;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .navbar-toggler {
+        margin: 0px auto;
+    }
+}
+@media (max-width: 320px) {
+    .navbar-brand img {
+        margin-left:37%;
+    }
+}
+
